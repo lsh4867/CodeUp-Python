@@ -21,4 +21,3 @@ while True:
 
 for i in range(1, 11):
   print(' '.join(map(str, d[i][1:11])))
-
