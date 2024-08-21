@@ -7,7 +7,7 @@ for i in range(1,20):
   for j in range(1,20):
     d[i][j] = a[j-1]
 
-# 핵심!: 바둑알 뒤쥡기 method
+# 핵심!: 바둑알 뒤집기 method
 n = int(input())
 for _ in range(n):
   x, y = map(int, input().split())
